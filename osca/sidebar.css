@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    order:1;
+    
+}
+
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    border-right: solid;
+    border-right-color: blue;
+    border-right-width: 1px;
+    background-color: ghostwhite;
+    
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+.page-content{
+    order:2;
+}
+
+#sidebar-toggler{
+    background-color: blueviolet;
+    position: fixed;
+    margin-top: 16em;
+    padding: .2rem;
+    opacity: .8;
+    -webkit-transform: rotate(
+-90deg
+) translate(-100%, 0);
+    -moz-transform: rotate(-90deg) translate(-100%, 0);
+    -o-transform: rotate(-90deg) translate(-100%, 0);
+    -ms-transform: rotate(-90deg) translate(-100%, 0);
+    transform: rotate(
+-90deg
+) translate(-100%, 0);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    transform-origin: top left;
+    z-index: 2;
+}

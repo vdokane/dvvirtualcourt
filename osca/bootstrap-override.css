@@ -1,0 +1,14 @@
+.dropdown-menu-dark{
+    background-color: #343a40; 
+}
+.submenu-link{
+    color: rgba(255,255,255,.5) !important;
+}
+.submenu-link:hover{
+    color: white !important;
+}
+
+.dropdown-menu-dark > li{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
