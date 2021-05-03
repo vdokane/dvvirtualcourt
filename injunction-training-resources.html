@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="OSCA">
+  <meta name="author" content="">
 
   <title>Virtual Court</title>
 
@@ -14,7 +14,8 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="osca/bootstrap-override.css" rel="stylesheet">
   <link href="osca/site.css" rel="stylesheet">
-
+  <link href="osca/sidebar.css" rel="stylesheet">
+  <link href="osca/qa.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +30,6 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
             </a>
           </li>
 
@@ -58,38 +58,69 @@
       </div>
     </div>
   </nav>
-
-  <!-- Page Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="mt-5">Confidentiality</h1>
-        <p class="lead">Your individual responses to various problems and evaluation questions, and any information that we may derive from our tracking of student progress through this program, will be kept confidential, except in so far as we may compile aggregated anonymous data for reporting purposes.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <p>Some suggestions I would recommend:
-        <ul>
-          <li>Explain we do not use cookies.</li>
-          <li>We use local storage to save your course progess. What is local storage: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API</li>
-          <li>We do not use google analytics...eeerrr... maybe we do? Flcourts does.</li>
-        </ul>  
-        </p>
-      </div>
-    </div>
-
+  <div id="sidebar2">
+    <div class="sidebar-header">
+      <h3>Course Steps(?)</h3>
   </div>
+  <ol class="components">
+    <li><a href="injunction-training-begin.html">Begin</a></li>
+      <li><a href="injunction-training-begin.html">Ex Parte Orders</a></li>
+      <li class="active">Standing (Current)</li>
+      <li><a href="#">Temporary Injunction Provisions</a></li>
+      <li><a href="#">Judicial Options</a></li>
+      <li><a href="#">Resources (the petition and any other pds)</a></li>
+  </ol>
+   
 
+</div>
+<button class="btn shutter-toggle" id="sidebar-toggler">
+  Course Steps <span id="toggle-btn-icon">&DownArrowBar;</span>
+</button>
+
+    <div class="training-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1>Resources for Injunctions</h1>
+            </div>
+        </div>
+
+                <div class="row">
+                    <div class="col-12">
+                      <h2>pdf goes here</h2>
+                  </div>
+                </div>
+
+                
+             
+
+                <div class="back-next-container">
+                <div class="row">
+                  <div class="col-6">
+                    <a href="injunction-training-judicial-options.html"   class="btn btn-secondary" >&larr; Previous</a>
+                  </div>
+               
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+
+  
  
-  <footer class="page-footer font-small footer">
+ <footer class="page-footer font-small footer">
     ©2021 Office of Court Improvement, Florida Supreme Court
      </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="app_scripts/qa.js"></script>
 
 </body>
 
 </html>
+
+
+

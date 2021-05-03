@@ -6,12 +6,25 @@
     background-color: #343a40 ;
     color: white;
     text-align: center;
+    z-index: 2;
   }
 
   .debugit {
     border: solid;
     border-width: 3px;
     border-color: deeppink;
-       
-    
+}
+
+h1{
+  color: darkblue;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: 1px;
+  padding-bottom: .25em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.container-main{
+  margin-bottom: 5em;
 }

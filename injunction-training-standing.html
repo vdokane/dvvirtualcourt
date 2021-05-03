@@ -16,8 +16,6 @@
   <link href="osca/site.css" rel="stylesheet">
   <link href="osca/sidebar.css" rel="stylesheet">
   <link href="osca/qa.css" rel="stylesheet">
-  <link href="vendor/openicon/open-iconic-bootstrap.min.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -32,7 +30,6 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
             </a>
           </li>
 
@@ -61,53 +58,107 @@
       </div>
     </div>
   </nav>
+  <div id="sidebar2">
+    <div class="sidebar-header">
+      <h3>Course Steps(?)</h3>
+  </div>
+  <ol class="components">
+    <li><a href="injunction-training-begin.html">Begin</a></li>
+      <li><a href="injunction-training-begin.html">Ex Parte Orders</a></li>
+      <li class="active">Standing (Current)</li>
+      <li><a href="#">Temporary Injunction Provisions</a></li>
+      <li><a href="#">Judicial Options</a></li>
+      <li><a href="#">Resources (the petition and any other pds)</a></li>
+  </ol>
+   
 
-  <div class="wrapper">
-    <!-- Sidebar -->
-    <nav id="sidebar">
-        <div class="sidebar-header">
-            <h3>Course Steps(?)</h3>
-        </div>
+</div>
+<button class="btn shutter-toggle" id="sidebar-toggler">
+  Course Steps <span id="toggle-btn-icon">&DownArrowBar;</span>
+</button>
 
-        <ol class="list-unstyled components">
-           <li><a href="injunction-training-begin.html">Begin</a></li>
-            <li><a href="injunction-training-exparteorders.html">Ex Parte Orders</a></li>
-            <li class="active">Standing</li>
-            <li><a href="#">Temporary Injunction Provisions</a></li>
-            <li><a href="#">Judicial Options</a></li>
-            <li><a href="#">Resources (the petition and any other pds)</a></li>
-        </ol>
-    </nav>
-    <div class="page-content">
+    <div class="training-body">
         <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                     <h1>Standing</h1>
-                    </div>
-                </div>
-                
-                <div class="row">
-                  <div class="col-12">
-                    Based on your reading of the petition, does the petitioner have standing?
-                                </div>
-              </div>
-
-
-
-              <div class="row debugit">
-                <div class="col-6">
-                  <a href="injunction-training-exparteorders.html"   class="btn btn-secondary" >&larr; Previous</a>
-                </div>
-
-                <div class="col-6 ">
-                  <div class="float-right">
-                  <a href="#"   class="btn btn-secondary" >Next &rarr;</a>
-                </div>
-                </div>
+          <div class="row">
+            <div class="col-12">
+                <h1>Standing</h1>
             </div>
         </div>
-    </div>
+
+        <div>
+  Better way to word, "click here" <br/>
+  In case you need to review the Petition again, you maybe find the pdf here.
 </div>
+                <div class="row">
+                    <div class="col-12">
+                      <h2>Question 2</h2>
+                      Based on your reading of the petition, does the petitioner have standing?
+          </div>
+                </div>
+
+                
+                <div class="row">
+                  <div class="col-3">
+                      <input type="button" class="btn btn-primary" value="Yes" id="inj-two-yes-btn">
+                    </div>
+                      <div class="col-3">
+                        <input type="button" class="btn btn-primary" value="No" id="inj-two-no-btn">
+                      </div>
+              </div>
+
+                <div class="row answer-hide" id="inj-two-yes-answr" >
+                    <div class="col-12">
+                      <div class="jumbotron">
+                        You answered Yes. This is correct. <br />
+                   The petitioner is married to, has children with, and lived with the respondent as a family; so pursuant to the domestic
+                    violence statute, she meets the criteria and has standing to file the petition. 
+                    The court could reasonably issue a temporary injunction because there appears to be an appearance or reasonable fear of imminent and present danger as required. Section 741.30(5)(a), Florida Statutes, states that when a petitioner files a petition for injunction and “it appears to the court that an immediate and present danger of domestic violence exists,” the court may grant a temporary injunction ex parte.
+        In the petition, Anna alleged that she is in fear of physical violence from the respondent; that the respondent punched a 
+        hole in the wall right beside her, destroyed her phone, pictures, and the dish, which are her personal property; threatened her, 
+        restrained her from using the telephone to call for help, threatened to conceal the petitioner’s children, has a criminal history involving
+         violence; that she has had an order of protection from another jurisdiction against the respondent; 
+         and that the respondent has engaged in other behavior or conduct that leads the petitioner to have reasonable cause to believe 
+         that she is in imminent danger, including that he has called her repeatedly at all hours of the night.
+                      </div>
+                    </div>
+                </div>
+                <div class="row answer-hide" id="inj-two-no-answr">
+                    <div class="col-12">
+                      <div class="jumbotron">
+                        You answered No.
+                          Actually, the petitioner is married to, has children with, and lived with the respondent as a family; 
+                          so pursuant to the domestic violence statute, she meets the criteria and has standing to file the petition. 
+                          The court could reasonably issue a temporary injunction because there appears to be an appearance or reasonable 
+                          fear of imminent and present danger as required. Section 741.30(5)(a), Florida Statutes, states that when a petitioner files a 
+                          etition for injunction and "it appears to the court that an immediate and present danger of domestic violence exists,"
+                           the court may grant a temporary injunction ex parte.
+In the petition, Anna alleged that she is in fear of physical violence from the respondent; 
+that the respondent punched a hole in the wall right beside her, destroyed her phone, pictures, and the dish, which are her personal property; 
+threatened her, restrained her from using the telephone to call for help, threatened to conceal the petitioner’s children, 
+has a criminal history involving violence; that she has had an order of protection from another jurisdiction against the respondent; 
+and that the respondent has engaged in other behavior or conduct that leads the petitioner to have reasonable cause to believe that she is in imminent danger, including that he has called her repeatedly at all hours of the night.
+                      </div>
+
+                    </div>
+                </div>
+
+                <div class="back-next-container">
+                <div class="row">
+                  <div class="col-6">
+                    <a href="injunction-training-exparteorders.html"   class="btn btn-secondary" >&larr; Previous</a>
+                  </div>
+
+                  <div class="col-6 ">
+                    
+                    <a href="injunction-training-temporary-injunction-provisions.html"   class="btn btn-secondary float-right" >Next &rarr;</a>
+                  
+                  </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
 
   
  
@@ -123,3 +174,6 @@
 </body>
 
 </html>
+
+
+

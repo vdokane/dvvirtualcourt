@@ -1,3 +1,7 @@
 .answer-hide{
     display:none;
 }
+
+.components > li{
+    margin-bottom: 1em;
+} 
