@@ -8,6 +8,12 @@
 
 
 
+.components > li{
+    margin-bottom: 1em;
+} 
+.sidebar-large > .components > li{
+    margin-bottom: .5em;
+}  
 #sidebar {
     min-width: 250px;
     max-width: 250px;
@@ -68,7 +74,7 @@
     opacity: 95%;
     padding-left:1em;
 }
-sidebar2 > a{
+#sidebar2 > li > a{
     color:white;
 }
 
@@ -93,3 +99,10 @@ sidebar2 > a{
     border: 3px solid #8AC007;
  }
  */
+
+
+ .sidebar-large{
+    height: 800px !important;
+    max-width: 300px !important;
+    z-index: 25;
+ }

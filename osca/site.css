@@ -1,9 +1,31 @@
+@font-face {
+  font-family: Cinzel;
+  src: url("../fonts/Cinzel-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: Cinzel;
+  font-weight: bold;
+  src: url("../fonts/Cinzel-Bold.otf") format("opentype");
+}
+body{
+  height: 100%; 
+  background-color: #fff;
+}
+
+.container.main-body{
+  background-color: #fcfcfc;
+  height: 100vh;
+}
+header{
+  background-color: #0f2844;
+  color: white;
+}
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #343a40 ;
+    background-color: #0f2844;
     color: white;
     text-align: center;
     z-index: 2;
@@ -16,15 +38,94 @@
 }
 
 h1{
-  color: darkblue;
-  border-bottom: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: 1px;
+  color: rgb(130, 22, 11);
+  border-bottom: 1px solid #d8d8d8;
+  
   padding-bottom: .25em;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
+h2{
+  font-size: 28px;    
+  font-weight: 600;
+color: rgb(34, 34, 34);
+}
+
 .container-main{
   margin-bottom: 5em;
 }
+
+.page-bottom-adjustment{
+  height: 10em;
+}
+
+.col-12 video{
+  width: inherit;
+}
+
+ /* stuff I stole from vendor */
+ @media screen and (max-width:767px) {
+  .header__logo {
+      text-align: center
+  }
+}
+header{
+  line-height: 1.6;
+  padding-top:.5em;
+  padding-bottom:.5em;
+}
+.header__logo-state {
+  font-size: 36px !important;
+  margin-bottom: 0;
+  margin-top: 30px;
+  text-shadow: .025em 0 0 #4a4a4a,-.023em 0 0 #4a4a4a,0 .023em 0 #4a4a4a,0 -.023em 0 #4a4a4a,.05em 0 0 #4a4a4a,-.05em 0 0 #4a4a4a,0 .05em 0 #4a4a4a,0 -.05em 0 #4a4a4a;
+  background-repeat: repeat-x;
+  background-position: bottom .025em center;
+  background-size: 100% .025em;
+  font-family: Cinzel,serif !important;
+  font-weight: 700 !important;
+  color: #f6f6f6;
+}
+
+@media screen and (max-width:1200px) {
+  .header__logo-state {
+      font-size: 28px;
+      margin-top: 35px
+  }
+}
+.header__logo-tag{
+  font-size: 18px;
+color: #cacaca;
+font-weight: 400;
+text-shadow: .025em 0 0 #4a4a4a,-.023em 0 0 #4a4a4a,0 .023em 0 #4a4a4a,0 -.023em 0 #4a4a4a,.05em 0 0 #4a4a4a,-.05em 0 0 #4a4a4a,0 .05em 0 #4a4a4a,0 -.05em 0 #4a4a4a;
+background-repeat: repeat-x;
+background-position: bottom .025em center;
+background-size: 100% .025em;
+box-sizing: border-box;
+font-family: Cinzel,serif;
+}
+
+.social-icon > i{
+  color:white;
+}
+
+#training-submenu{
+    width: 300px;
+    border-top: solid;
+    border-top-color: #0f2844;
+    border-radius: 0 !important;
+}        
+.dropdown > ul > li > a{
+font-weight: 500;
+font-size: 18px;
+}
+.dropdown > ul > li > a:hover{
+  background-color: white;
+  }
+
+ #reference-submenu{
+    border-top: solid;
+    border-top-color: #0f2844;
+    border-radius: 0 !important;
+  }

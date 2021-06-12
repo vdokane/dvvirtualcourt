@@ -1,14 +1,70 @@
+/* this screws with the header
+.container{
+    background-color: white;
+} */
+.navbar{
+    height: 65px;
+    padding: 0rem !important;
+}
+.navbar-dark{
+    background-color: #d8d8d8 !important;
+}
 .dropdown-menu-dark{
-    background-color: #343a40; 
+    background-color: #d8d8d8 !important;
+}
+.nav-link{
+    color: rgb(51, 51, 53) !important;
+    font-size: 16px;
+    font-weight: 700;
+
 }
 .submenu-link{
-    color: rgba(255,255,255,.5) !important;
-}
-.submenu-link:hover{
-    color: white !important;
+    color: black !important;
 }
 
+.submenu-link:hover{
+    text-decoration: none;
+} 
 .dropdown-menu-dark > li{
-    padding-left: 1em;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
+.dropdown-menu-dark > li > a{
+    padding-left: 1em; 
+    width: 300px;
+    display: inline-block;
+}
+/*
+.dropdown-menu-dark > li{
+    padding-left: 1em; 
+    padding-bottom: 1em;
+} */
+
+.dropdown{
+    height: inherit;
+    padding-top: 10px;
+    }
+.dropdown:hover{
+    background-color: white;
+    }
+#header-container{
+    height:100%;
+}    
+#navbarResponsive{
+    height:100%;
+}
+.navbar-nav{
+    align-items: center;
+    height:inherit;
+}
+
+.nav-item:hover{
+    background-color: white;
+    height: inherit;
+    }
+    .nav-item{
+        padding-top: 10px;
+        height: inherit;
+        /* vertical-align: middle;
+        //display: contents; */
+        
+        }

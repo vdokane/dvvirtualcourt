@@ -2,6 +2,14 @@
     display:none;
 }
 
-.components > li{
-    margin-bottom: 1em;
-} 
+ 
+.object-element-style{
+    height:500px;
+    width:100%;
+    border-radius: 3px;
+}
+
+.next-section-container{
+    margin-top: 1em;
+}
+
